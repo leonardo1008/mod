@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "nm:fuelPlants0" },
+        "age=1": { "model": "nm:fuelPlants0" },
+        "age=2": { "model": "nm:fuelPlants1" },
+        "age=3": { "model": "nm:fuelPlants1" },
+        "age=4": { "model": "nm:fuelPlants2" },
+        "age=5": { "model": "nm:fuelPlants2" },
+        "age=6": { "model": "nm:fuelPlants3" },
+        "age=7": { "model": "nm:fuelPlants3" }
+    }
+}
