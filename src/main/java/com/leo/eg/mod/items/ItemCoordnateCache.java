@@ -24,6 +24,7 @@ public class ItemCoordnateCache extends Item
 		super();
 		this.setCreativeTab(NewMod.tabNewMod);
 		this.setUnlocalizedName(name);
+		
 	}
 
 	@Override
@@ -41,6 +42,7 @@ public class ItemCoordnateCache extends Item
 			nbt.setInteger("posY", pos.getY());
 			nbt.setInteger("posZ", pos.getZ());
 			stack.getTagCompound().setTag("coords", nbt);
+			this.maxStackSize = 1;
 			stack.setStackDisplayName(EnumChatFormatting.DARK_RED + "Coordinate Eye");
 		}
 		return false;
