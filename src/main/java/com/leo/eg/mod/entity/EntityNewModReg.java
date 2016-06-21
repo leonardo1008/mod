@@ -15,7 +15,7 @@ public class EntityNewModReg {
 	}
 	public static void EntityNMreg(){
 		createEntity(NMTireLessMob.class, "Tireless_Mob", 0x228BE0, 0xD01AD6);
-		createAnotherEntity(NMSmallvillagerCow.class, "Small_Villagers_Cow", 0x85E827, 0xF2AD35);
+		createAnotherEntity(NMSmallvillagerCow.class, "Small_Villagers_Cow", 0x6B3E3E, 0xDBD165);
 	}
 	
 	public static void createEntity(Class Entityclass, String name, int solidColor, int spotColor){
